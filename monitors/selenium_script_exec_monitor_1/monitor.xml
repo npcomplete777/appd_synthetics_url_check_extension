@@ -1,0 +1,22 @@
+<monitor>
+    <name>UrlMonitor</name>
+    <type>managed</type>
+    <enabled>true</enabled>
+    <description>Monitors URLs
+    </description>
+    <monitor-configuration>
+    </monitor-configuration>
+    <execution-frequency-in-seconds>120</execution-frequency-in-seconds>
+    <execution-timeout-in-secs>120</execution-timeout-in-secs>
+    <monitor-run-task>
+        <execution-style>periodic</execution-style>
+        <name>Run</name>
+        <type>executable</type>
+        <task-arguments>
+        </task-arguments>
+        <executable-task>
+            <type>file</type>
+            <file os-type="mac">selenium_script_monitor.py</file>
+        </executable-task>
+    </monitor-run-task>
+</monitor>

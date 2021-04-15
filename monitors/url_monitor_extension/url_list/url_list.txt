@@ -1,0 +1,7 @@
+https://www.google.com:443
+https://www.yahoo.com:443
+https://slashdot.org:443
+https://www.facebook.com:443
+https://www.microsoft.com/en-us:443
+https://aws.amazon.com:443
+https://www.geeksforgeeks.org:443
